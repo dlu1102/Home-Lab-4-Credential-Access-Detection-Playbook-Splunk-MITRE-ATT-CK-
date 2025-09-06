@@ -1,4 +1,4 @@
-# Home Lab Project #4 – Credential Access Detection Playbook (Splunk + MITRE ATT&CK)
+# Home Lab #4 – Credential Access Detection Playbook (Splunk + MITRE ATT&CK)
 
 ## Project Overview
 This project expands on my earlier Splunk and Python labs by building a **defensive playbook aligned with MITRE ATT&CK**.  
