@@ -1,8 +1,7 @@
 # Home Lab #4 – Credential Access Detection Playbook (Splunk + MITRE ATT&CK)
 
 ## Project Overview
-This project expands on my earlier Splunk and Python labs by building a **defensive playbook aligned with MITRE ATT&CK**.  
-The focus is on **correlating failed SSH authentication attempts**, applying **risk scoring**, and documenting the process as a repeatable SOC workflow.  
+This project expands on my earlier Splunk and Python labs by building a **defensive playbook aligned with MITRE ATT&CK**.  The focus is on **correlating failed SSH authentication attempts**, applying **risk scoring**, and documenting the process as a repeatable SOC workflow.  
 
 - **Project #1:** Installed Splunk & ingested Linux logs (foundation).  
 - **Project #2:** Built Splunk detection for failed logins (single-source detection).  
