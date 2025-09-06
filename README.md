@@ -74,13 +74,14 @@ Screenshot: <img width="1404" height="840" alt="Splunk Dashboard Panel" src="htt
 
 Screenshot: <img width="795" height="852" alt="Splunk Alert Config" src="https://github.com/user-attachments/assets/f2053e2d-9499-4cd6-af56-aeb50fe08544" />
 
-## MITRE ATT&CK as a Playbook
+## MITRE ATT&CK Framework Applied
 
-- This lab wasn’t just about finding failed logins. It was about turning detection into a repeatable SOC playbook:
+This lab was about taking MITRE’s framework and operationalizing it into a SOC playbook:
+
 - Tactic: Credential Access
 - Technique: T1110 – Brute Force
 
-Playbook Steps
+SOC Playbook Workflow
 
 - Detect: Spot repeated failed SSH logins in Splunk (SPL query).
 - Correlate: Aggregate attacker IPs across events to identify persistence.
@@ -90,11 +91,11 @@ Playbook Steps
 
 💡 Why It Matters
 
-MITRE ATT&CK transforms this project from a single Splunk query into a structured defensive playbook. This mirrors how real teams standardize incident response and escalation.
+By mapping to MITRE ATT&CK and building a SOC playbook workflow, this project mirrors how real teams standardize detection, triage, and escalation. It transforms a single Splunk query into a repeatable defensive process.
 
 ## Key Takeaways
 
-- I learned how to correlate multiple log sources into a unified detection.
-- I applied risk scoring to prioritize attacker IPs.
-- I aligned workflow with MITRE ATT&CK to show playbook-driven detection.
-- I demonstrated progression: setup (Proj #1) → detection (Proj #2) → automation (Proj #3) → playbook correlation (Proj #4).
+- Correlated multiple log sources into a unified detection.
+- Applied risk scoring to prioritize attacker IPs.
+- Used MITRE ATT&CK as the framework, and built a SOC playbook workflow around it.
+- Demonstrated progression: setup (Proj #1) → detection (Proj #2) → automation (Proj #3) → playbook correlation (Proj #4).
